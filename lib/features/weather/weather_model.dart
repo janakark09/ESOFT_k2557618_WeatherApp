@@ -1,4 +1,4 @@
-/// Model for current weather data for a city
+// Model for current weather data for a city
 class WeatherModel {
   final String cityName;
   final double temp;
@@ -11,7 +11,7 @@ class WeatherModel {
     required this.description,
     required this.icon,
   });
-// Create WeatherModel from JSON response
+// -------------- Create WeatherModel from JSON response ----------------------
   factory WeatherModel.fromJson(Map<String, dynamic> json) {
     return WeatherModel(
       cityName: json['name'],

@@ -39,7 +39,7 @@ class _HomeScreenState extends State<HomeScreen> {
           child: Column(
             children: [
               //========================================= animated image for Home Screen =========================================
-              //image section
+              //--------------image section------------------------
               Image.asset('assets/images/anim_icon.gif',
                 fit:BoxFit.scaleDown,
                 height: 200,
@@ -47,7 +47,6 @@ class _HomeScreenState extends State<HomeScreen> {
 
               SizedBox(height: 15),
               //========================================== Welcome text ==========================================
-              //text.section
               Text("Welcome",
                 style: TextStyle(
                   fontSize: 32,
@@ -66,7 +65,7 @@ class _HomeScreenState extends State<HomeScreen> {
 
               const SizedBox(height: 30),
 //=========================================  Weather result for Home city using Consumer ==============================================
-              Consumer<WeatherProvider>(
+              Consumer<WeatherProvider>(                    // https://docs.flutter.dev/data-and-backend/state-mgmt/simple
                 builder: (context, provider, child) {
                   if (provider.isLoading) {
                     return const CircularProgressIndicator();

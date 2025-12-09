@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import './history_provider.dart';
 
-// Screen to displays a list of previously searched weather results
+// ============================== Screen to displays a list of previously searched weather results===========================
 
 class HistoryScreen extends StatelessWidget {
   const HistoryScreen({super.key});
@@ -11,10 +11,10 @@ class HistoryScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(title: const Text("Weather History")),
-      // Using Consumer to update UI when history changes
+      // ----------------------- Using Consumer to update UI when history changes ---------------------------------
       body: Consumer<HistoryProvider>(
         builder: (context, provider, child) {
-          // Show message if no history entries exist
+          // ------ Show message if no history entries -------------
           if (provider.history.isEmpty) {
             return const Center(
               child: Text("No history available"),

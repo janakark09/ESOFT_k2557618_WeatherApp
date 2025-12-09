@@ -2,10 +2,11 @@ import 'dart:convert';
 import 'package:http/http.dart' as http;
 import '../../core/masters/api_masters.dart';
 
-// Service class for calling the forecast API
+// ======================================= Service class for calling the forecast API ==========================================
 class ForecastService {
-  // Fetches forecast for a city and returns raw JSON list
+  // -------------------- Fetches forecast for a city and returns raw JSON list -----------------------------------
   Future<List<dynamic>> getForecastByCity(String city) async {
+    // ------------------ Query for search the forecast from openweathermap.org API ------------
     final response = await http.get(Uri.parse(
         '${ApiConstants.baseUrl}forecast?q=$city&appid=${ApiConstants.apiKey}&units=metric'));
 

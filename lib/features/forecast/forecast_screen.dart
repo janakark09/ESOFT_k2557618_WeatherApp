@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import './forecast_provider.dart';
-// Screen displaying the forecast for a selected city
+// ======================== Screen displaying the forecast for a selected city ==========================================
 class ForecastScreen extends StatefulWidget {
   final String city;
   const ForecastScreen({super.key, required this.city});
@@ -30,11 +30,11 @@ class _ForecastScreenState extends State<ForecastScreen> {
           if (provider.loading) {
             return const Center(child: CircularProgressIndicator());
           }
-
+        // If no forecast for input
           if (provider.forecast.isEmpty) {
             return const Center(child: Text("No forecast available"));
           }
-
+        // Load the weather forcast details as a Listview -----------------------------------
           return ListView.builder(
             itemCount: provider.forecast.length,
             itemBuilder: (context, index) {
@@ -46,7 +46,9 @@ class _ForecastScreenState extends State<ForecastScreen> {
                   leading: Image.network(
                     "https://openweathermap.org/img/wn/${item.icon}@2x.png",
                   ),
+                  // --------------------- Forecast Details ---------------------------
                   title: Text("${item.temp}°C — ${item.description}"),
+                  // ---------------------------- Date and Time --------------------------------
                   subtitle: Text(item.date),
                 ),
               );

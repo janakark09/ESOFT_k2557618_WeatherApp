@@ -1,10 +1,11 @@
-// Model class for forecast
+// ========================== Model class for forecast =====================================
 class ForecastModel {
   final String date;
   final double temp;
   final String description;
-  final String icon;   // Icon code for the weather condition.
+  final String icon;   // Icon code for the weather condition ------------------------
 
+  // ------------------- constructor -------------
   ForecastModel({
     required this.date,
     required this.temp,
@@ -12,7 +13,7 @@ class ForecastModel {
     required this.icon,
   });
 
-  // Factory constructor to parse JSON and create a ForecastModel object.
+  // -------- Factory constructor to parse JSON and create a ForecastModel object ------------
   factory ForecastModel.fromJson(Map<String, dynamic> json) {
     return ForecastModel(
       date: json['dt_txt'],

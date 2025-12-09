@@ -1,7 +1,7 @@
 import 'dart:convert';
 import 'package:http/http.dart' as http;
 import '../../core/masters/api_masters.dart';
-// Service class for making weather API requests.
+// ========== Service class for making weather API requests ===============================
 class ApiService {
   // Calls the OpenWeatherMap "current weather" API
   Future<Map<String, dynamic>> getWeatherByCity(String city) async {

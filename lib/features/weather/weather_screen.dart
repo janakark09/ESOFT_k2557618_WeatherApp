@@ -14,13 +14,14 @@ class WeatherScreen extends StatefulWidget {
 }
 
 class _HomeScreenState extends State<WeatherScreen> {
+  //Declaring part---------------------------------------
   final TextEditingController _controller = TextEditingController();
   late WeatherProvider weatherProvider;
 
   @override
   void initState() {
     super.initState();
-    // Access provider once
+    // ---------------------------- Access provider once ---------------------------------------------
     weatherProvider = Provider.of<WeatherProvider>(context, listen: false);
   }
 
@@ -34,7 +35,7 @@ class _HomeScreenState extends State<WeatherScreen> {
         padding: const EdgeInsets.all(16.0),
         child: Column(
           children: [
-            // Input city name
+            // --------------------- Input city name ----------------------------
             TextField(
               controller: _controller,
               decoration: InputDecoration(
@@ -50,9 +51,9 @@ class _HomeScreenState extends State<WeatherScreen> {
                   foregroundColor:Colors.black,
                   minimumSize: Size(200, 50)),
               onPressed: () async {
-          // Get weather using provider
+          // ------------------------------- Get weather using provider -----------------------------------------
                 await weatherProvider.getWeather(_controller.text);
-          // If successful, add to history
+          // -------------------------if successful, add to history ---------------------------------
                 if (weatherProvider.weather != null) {
                   Provider.of<HistoryProvider>(context, listen: false).addToHistory(
                     HistoryModel(
@@ -97,7 +98,7 @@ class _HomeScreenState extends State<WeatherScreen> {
                           style: const TextStyle(
                               fontSize: 18, fontStyle: FontStyle.italic),
                         ),
-                        // Get weather icon from the openweathermap.org
+                        // get weather icon from the openweathermap.org
                         Image.network(
                           "https://openweathermap.org/img/wn/${weather.icon}@2x.png",
                         ),
@@ -117,7 +118,7 @@ class _HomeScreenState extends State<WeatherScreen> {
               if(_controller.text=="")
                 {
                   ScaffoldMessenger.of(context).showSnackBar(
-                      const SnackBar(content: Text("Please enter a City to get the ")));
+                      const SnackBar(content: Text("Please enter a City to get the weather forecast")));
                 }
               else
                 {

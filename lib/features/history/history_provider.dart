@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import './history_model.dart';
 
-/// Provider to store and manage a list of previously searched weather data
-// This is a history log (not permanently).
+// Provider to store and manage a list of previously searched weather data ============================================================
+// -------------------- This is a history log (not permanently) -------------------------------------
 class HistoryProvider with ChangeNotifier {
   // Internal list of weather history entries
   final List<HistoryModel> _history = [];

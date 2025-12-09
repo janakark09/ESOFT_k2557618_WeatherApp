@@ -4,7 +4,28 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="62f72337-efe1-421e-9cd3-11d5293b2544" name="Changes" comment="7-12-2025_last" />
+    <list default="true" id="62f72337-efe1-421e-9cd3-11d5293b2544" name="Changes" comment="7-12-2025_last">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.gradle/8.12/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/8.12/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.gradle/8.12/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/8.12/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.gradle/8.12/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/8.12/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.gradle/8.12/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/8.12/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/file-system.probe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/android/local.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/features/forecast/forecast_model.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/features/forecast/forecast_model.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/features/forecast/forecast_provider.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/features/forecast/forecast_provider.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/features/forecast/forecast_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/features/forecast/forecast_screen.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/features/forecast/forecast_service.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/features/forecast/forecast_service.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/features/history/history_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/features/history/history_screen.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/features/home/home_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/features/home/home_screen.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/features/weather/weather_model.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/features/weather/weather_model.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/features/weather/weather_provider.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/features/weather/weather_provider.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/features/weather/weather_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/features/weather/weather_screen.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/features/weather/weather_service.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/features/weather/weather_service.dart" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,7 +52,7 @@
 }</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/janakark09/ESOFT_K2557618_MOBI_CW1_B.git&quot;,
+    &quot;url&quot;: &quot;https://github.com/janakark09/ESOFT_k2557618_WeatherApp.git&quot;,
     &quot;accountId&quot;: &quot;7ba729b2-2d1b-42bb-ac19-3c78ccb690b0&quot;
   }
 }</component>
@@ -46,31 +67,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Flutter.main.dart.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.cidr.known.project.marker": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.readMode.enableVisualFormatting": "true",
-    "cf.first.check.clang-format": "false",
-    "cidr.known.project.marker": "true",
-    "com.google.services.firebase.aqiPopupShown": "true",
-    "dart.analysis.tool.window.visible": "false",
-    "git-widget-placeholder": "master",
-    "io.flutter.project.isFirstOpen": "true",
-    "io.flutter.reload.alreadyRun": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Jana/Desktop/New folder (4)/ESOFT_k2557618_WeatherApp",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "show.migrate.to.gradle.popup": "false"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Flutter.main.dart.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;com.google.services.firebase.aqiPopupShown&quot;: &quot;true&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;io.flutter.project.isFirstOpen&quot;: &quot;true&quot;,
+    &quot;io.flutter.reload.alreadyRun&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Jana/Desktop/New folder (4)/ESOFT_k2557618_WeatherApp&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\GitHub-Projects\ESOFT_K2557618_MOBI_CW1_B\assets\images" />
